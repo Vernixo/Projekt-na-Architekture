@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("wpisuj coś w kodzie szesnastkowym");
+            Console.WriteLine("Podaj wartość dla rejestru \"AL\"");
             string AL = Console.ReadLine();
             //Console.WriteLine(AL);
             if (AL.Length == 2)
@@ -16,8 +16,19 @@
                 {
                     if (alTablica[1] >= '0' && alTablica[1] <= '9' || alTablica[1] >= 'A' && alTablica[1] <= 'F')
                     {
-                        Console.WriteLine("it's working");
-                        Console.WriteLine(AL);
+                        Console.WriteLine("Podaj wartość dla rejestru \"AH\"");
+                        string AH = Console.ReadLine();
+                        if(AH.Length == 2)
+                        {
+                            char[] ahTablica = AH.ToCharArray();
+                            if(ahTablica[0] >= '0' && ahTablica[0] <= '9' || ahTablica[0] >= 'A' && ahTablica[0] <= 'F')
+                            {
+                                if(ahTablica[1] >= '0' && ahTablica[1] <= '9' || ahTablica[1] >= 'A' && ahTablica[1] <= 'F')
+                                {
+                                    Console.WriteLine(AH);
+                                }
+                            }
+                        }
                     }
                 }
                 else
