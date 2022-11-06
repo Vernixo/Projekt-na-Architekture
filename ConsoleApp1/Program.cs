@@ -92,7 +92,16 @@
                                                                                                             switch (operacja)
                                                                                                             {
                                                                                                                 case "MOV":
-                                                                                                                    Console.WriteLine("To będzie zaraz obsługiwane");
+                                                                                                                    Console.WriteLine("Podaj rejestr do przeniesienia");
+                                                                                                                    string rejestr1 = Console.ReadLine();
+                                                                                                                    switch (rejestr1)
+                                                                                                                    {
+                                                                                                                        case "AL":
+                                                                                                                            break;
+                                                                                                                        case "AH":
+                                                                                                                            break;
+                                                                                                                        case ""
+                                                                                                                    }
                                                                                                                     break;
                                                                                                                 case "XCHG":
                                                                                                                     Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
