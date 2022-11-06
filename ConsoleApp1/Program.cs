@@ -76,6 +76,48 @@
                                                                                                     {
                                                                                                         if (dhTablica[1] >= '0' && dhTablica[1] <= '9' || dhTablica[1] >= 'A' && dhTablica[1] <= 'F')
                                                                                                         {
+                                                                                                            Console.WriteLine("Wpisz jaką operację chcesz wykonać");
+                                                                                                            Console.WriteLine("Dostępne operacje to:\n" +
+                                                                                                                "MOV-\n" +
+                                                                                                                "XCHG-\n" +
+                                                                                                                "NOT-\n" +
+                                                                                                                "INC-\n" +
+                                                                                                                "DEC-\n" +
+                                                                                                                "AND-\n" +
+                                                                                                                "OR-\n" +
+                                                                                                                "XOR-\n" +
+                                                                                                                "ADD-\n" +
+                                                                                                                "SUB-\n");
+                                                                                                            string operacja = Console.ReadLine();
+                                                                                                            switch (operacja)
+                                                                                                            {
+                                                                                                                case "MOV":
+                                                                                                                    Console.WriteLine("kebab");
+                                                                                                                    break;
+                                                                                                                case "XCHG":
+                                                                                                                    break;
+                                                                                                                case "NOT":
+                                                                                                                    break;
+                                                                                                                case "INC":
+                                                                                                                    break;
+                                                                                                                case "DEC":
+                                                                                                                    break;
+                                                                                                                case "AND":
+                                                                                                                    break;
+                                                                                                                case "OR":
+                                                                                                                    break;
+                                                                                                                case "XOR":
+                                                                                                                    break;
+                                                                                                                case "ADD":
+                                                                                                                    break;
+                                                                                                                case "SUB":
+                                                                                                                    break;
+                                                                                                                default:
+                                                                                                                    Console.WriteLine("Podana operacja nie istnieje");
+                                                                                                                    break;
+                                                                                                                
+                                                                                                                
+                                                                                                            }
 
                                                                                                         }
                                                                                                         else
