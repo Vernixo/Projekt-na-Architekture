@@ -92,25 +92,34 @@
                                                                                                             switch (operacja)
                                                                                                             {
                                                                                                                 case "MOV":
-                                                                                                                    Console.WriteLine("kebab");
+                                                                                                                    Console.WriteLine("To będzie zaraz obsługiwane");
                                                                                                                     break;
                                                                                                                 case "XCHG":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "NOT":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "INC":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "DEC":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "AND":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "OR":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "XOR":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "ADD":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 case "SUB":
+                                                                                                                    Console.WriteLine("Ta operacja nie jest jeszcze obsługiwana");
                                                                                                                     break;
                                                                                                                 default:
                                                                                                                     Console.WriteLine("Podana operacja nie istnieje");
