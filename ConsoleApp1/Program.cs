@@ -78,36 +78,148 @@
                                                                                                         {
 
                                                                                                         }
+                                                                                                        else
+                                                                                                        {
+                                                                                                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                                            Task.Delay(3000);
+                                                                                                        }
+                                                                                                    }
+                                                                                                    else
+                                                                                                    {
+                                                                                                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                                        Task.Delay(3000);
                                                                                                     }
                                                                                                 }
+                                                                                                else
+                                                                                                {
+                                                                                                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                                    Task.Delay(3000);
+                                                                                                }
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                                Task.Delay(3000);
                                                                                             }
                                                                                         }
+                                                                                        else
+                                                                                        {
+                                                                                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                            Task.Delay(3000);
+                                                                                        }
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                        Task.Delay(3000);
                                                                                     }
                                                                                 }
+                                                                                else
+                                                                                {
+                                                                                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                    Task.Delay(3000);
+                                                                                }
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                                Task.Delay(3000);
                                                                             }
                                                                         }
+                                                                        else
+                                                                        {
+                                                                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                            Task.Delay(3000);
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                        Task.Delay(3000);
                                                                     }
                                                                 }
+                                                                else
+                                                                {
+                                                                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                    Task.Delay(3000);
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                                Task.Delay(3000);
                                                             }
                                                         }
+                                                        else
+                                                        {
+                                                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                            Task.Delay(3000);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                        Task.Delay(3000);
                                                     }
                                                 }
+                                                else
+                                                {
+                                                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                    Task.Delay(3000);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                                Task.Delay(3000);
                                             }
                                         }
+                                        else
+                                        {
+                                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                            Task.Delay(3000);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                        Task.Delay(3000);
                                     }
                                 }
+                                else
+                                {
+                                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                    Task.Delay(3000);
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                                Task.Delay(3000);
                             }
                         }
+                        else
+                        {
+                            Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                            Task.Delay(3000);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                        Task.Delay(3000);
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Wpisz poprawne znaki");
+                    Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                    Task.Delay(3000);
                 }
             }
             else
             {
-                Console.WriteLine("chyba też działa");
+                Console.WriteLine("Podana wartość musi być zapisana w systemie szesnastkowym! Zaraz nastąpi wyłączenie programu");
+                Task.Delay(3000);
             }
         }
     }
